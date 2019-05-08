@@ -1,5 +1,5 @@
 <?php
-$container->setParameter('authentication_provider', 'PartKeepr.Auth.WSSEAuthenticationProvider');
+$container->setParameter('authentication_provider', '{{ PARTKEEPR_AUTHENTICATION_PROVIDER}}');
 $container->setParameter('cache.doctrine', 'array');
 $container->setParameter('cache.dunglas', false);
 $container->setParameter('database_driver', 'pdo_mysql');
@@ -46,4 +46,4 @@ $container->setParameter('partkeepr.octopart.apikey', '{{ PARTKEEPR_OKTOPART_API
 $container->setParameter('partkeepr.parts.internalpartnumberunique', false);
 $container->setParameter('partkeepr.parts.limit', false);
 $container->setParameter('partkeepr.users.limit', false);
-$container->setParameter('secret', 'OJBKOJIKNONAJENLBJJNLFIDPDGKDIED');
+$container->setParameter('secret', '{{ PARTKEEPR_SECRET }}');
