@@ -1,3 +1,5 @@
+/.idea/
+
 .envrc
 *.sql
 .DS_Store
